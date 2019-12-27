@@ -1,0 +1,385 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+.top{
+	width: 1440px;
+	height: 96px;
+	border-top: 4px solid #F08D18;
+	margin: 0  auto;
+}
+.top img{
+	margin-left: 150px;
+	margin-top: 9px;
+	float: left;
+}
+.top ul li{
+	list-style: none;
+}
+.top ul li a{
+	font-size: 12px;
+	color: black;
+	font-family: "宋体";
+	text-decoration: none;
+	float: left;
+	margin-right: 12px;
+	margin-top: 18px;
+	height: 20px;
+}
+.top ul li a:hover{
+	color:#F08D18;
+}
+.top p{
+	font-size: 12px;
+	font-weight: bold;
+	float: left;
+	margin-top: 22px;
+	margin-left: 425px;
+}
+.banner{
+	width: 1440px;
+	height: 371px;
+	margin: 0  auto;
+	margin-top: 7px;
+}
+.banner .btn{
+	width: 100%;
+	height: 52px;
+	background: #4B4A48;
+}
+.banner .btn ul li{
+	list-style: none;
+	float: left;
+	line-height: 52px;
+	width: 120px;
+	height: 52px;
+	text-align: center;
+	font-size: 16px;
+
+}
+.banner .btn ul li a{
+	text-decoration: none;	
+	color: white;
+}
+.banner .btn ul li:hover{
+	background: orange;
+}
+.banner img{
+	position: relative;
+}
+.banner .dbox{
+	width: 364px;
+	height: 303px;
+	border: 4px solid #656565;
+	position: absolute;
+	left: 630px;top: 164px;
+	background: white;
+}
+.banner .dbox ul{
+	width: 364px;
+	height: 45px;
+}
+.banner .dbox ul li{
+	list-style: none;
+	width: 179px;
+	height: 43px;
+	float: left;
+	text-align: center;
+	line-height: 43px;
+	font-size: 16px;
+}
+.banner .dbox ul .active{
+	background: #CCC;
+	color: white;
+}
+.banner .dbox ul li:hover{
+	background: #ccc;
+	border-bottom: 2px solid black;
+}
+.col p{
+	width: 100%;
+	height: 30px;
+
+}
+label{
+	margin-left: 10px;
+}
+.on select{
+	width: 110px;
+	height: 30px;
+	margin-right: 5px;
+}
+select{
+	width: 184px;
+	height: 30px;
+	margin-top: 18px;
+	margin-bottom: 5px;
+}
+input{
+	width: 132px;
+	height: 30px;
+	background: orange;
+	border: none;
+	margin-left: 113px;
+	margin-top: 5px;
+}
+.content1{
+	width: 1140px;
+	height: 338px;
+	margin-top: 30px;
+}
+.content1 .ctop{
+	width: 1140px;
+	height: 266px;
+}
+.content .content1 .crt{
+	width: 809px;
+	height: 206px;
+	float: left;
+}
+.content .content1 .crt p{
+	width: 809px;
+}
+.content .content1 .crt p,.content .content1 .clft p,.content2 .clf p{
+	font-size: 20px;
+	color:#F08D18;
+	padding-bottom: 8px;
+	border-bottom: 2px solid #000;
+	float: left;
+}
+.content .content1 .crt p span,.content .content1 .clft p span,.content2 .clf p span{
+	font-size: 12px;
+	color: black;
+	float: right;
+	margin-top: 8px;
+}
+.content .content1 .crt .c1{
+	width: 249px;
+	height: 191px;
+	margin-top: 18px;
+	float: left;
+}
+h6{
+	margin-top: 15px;
+    margin-left: 63px;
+}
+.content .content1 .clft{
+	width: 305px;
+	height: 244px;
+	float: right;
+}
+.content .content1 .clft p{
+	width: 305px;
+}
+.content .content1 .clft .c2{
+	width: 305px;
+	height: 199px;
+	margin-top: 45px;
+}
+.clft .c2 .ctop{
+	width: 305px;
+	height: 130px;
+}
+.clft .c2 .ctop .box{
+	width: 133px;
+	height: 130px;
+	background: #F8931F;
+	font-size: 20px;
+	color: white;
+	line-height: 130px;
+	text-align: center;
+	float: left;
+}
+.clft .c2 .ctop .box1{
+	width: 166px;
+	height: 62px;
+	line-height: 62px;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	background: red;
+	float: right;
+	margin-bottom: 6px;
+}
+.clft .c2 .cbom{
+	width: 305px;
+	height: 63px;
+	margin-top: 6px;
+}
+.clft .c2 .cbom .box2{
+	width: 80px;
+	height: 63px;
+	margin-right: 5px;
+}
+.clft .c2 .cbom .box2,.clft .c2 .cbom .box3{
+	background: #01A89E;
+	line-height: 63px;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	float: left;
+}
+.clft .c2 .cbom .box3{
+	width: 135px;
+	height: 63px;
+	background: #F8931F;
+}
+.bottom .cb1{
+	width: 387px;
+	height: 71px;
+	margin-top: 1px;
+}
+.content2{
+	width: 1140px;
+	height: 312px;
+	margin-top: 24px;
+}
+.content2 .clf{
+	width: 809px;
+	height: 28px;
+	float: left;
+}
+.content2 .clf p{
+	width: 809px;
+	height: 28px;
+}
+.content2 .clgb{
+	width: 809px;
+	height: 277px;
+	margin-top: 10px;
+	float: left;
+	padding-top: 15px;
+}
+h5{
+	font-size: 12px;
+	margin-left: 82px;
+}
+.content2 .clgb .clg1{
+	float: left;
+}
+.content2 .clgb .clg2,.content2 .clgb .clg3,.content2 .clgb .clg4{
+	float: left;
+	width: 252px;
+	height: 120px;
+}
+.content2 .clgb .clg4,.content2 .clgb .clg5{
+	margin-top: 23px;
+}
+
+.content2 .clr{
+	width: 303px;
+	height: 306px;
+	float: left;
+	margin-top: -21px;
+	margin-left: 21px;
+}
+.content2 .clr p{
+	font-size: 20px;
+	color: orange;
+	float: left;
+}
+.content2 .clr p span{
+	float: right;
+	font-size: 14px;
+	color: black;
+}
+.content2 .clr p{
+	width: 303px;
+	height: 28px;
+	border-bottom: 2px solid black;
+}
+.content2 .clr ul{
+	width: 303px;
+	height: 254px;
+	margin-top: 27px;
+}
+.content2 .clr ul li{
+	list-style: none;
+	font-size: 12px;
+	color: black;
+	line-height: 30px;
+	background: url(../images/bg.png) no-repeat left center;
+	margin-left: 14px;
+	padding-left: 16px;
+}
+.content3{
+	width: 1140px;
+	margin-top: 40px;
+	height: 60px;
+}
+h3{
+	width: 1140px;
+	height: 32px;
+	line-height: 28px;
+	font-size: 20px;
+	color: #F8931F;
+	border-bottom: 2px solid #000;
+	margin-bottom: 8px;
+}
+.content3 ul li{
+	list-style: none;
+}
+.content3 ul li a{
+	text-decoration: none;
+	color: black;
+	float: left;
+	font-size: 14px;
+	margin-right: 18px;
+}
+.footer{
+	width: 1440px;
+	height: 273px;
+	background: #4B4A48;
+	margin: 0 auto;
+	border-top:6px solid #F08D18;
+	margin-top:16px;
+}
+.footer .for{
+	width: 1135px;
+	height: 156px;
+	border-bottom: 1px solid #ccc;
+}
+.footer ul{
+	float: left;
+}
+.footer .first{
+	float: left;
+}
+.footer ul li{
+	list-style: none;
+}
+.footer ul li a{
+	text-decoration: none;
+	font-size: 12px;
+	color: white;
+	margin-right: 90px;
+	line-height: 30px;
+}
+.footer ul li a:hover{
+	color: orange;
+}
+.footer .one{
+	margin-top: 20px;
+	font-size: 20px;
+	color: white;
+	margin-bottom: 14px;
+}
+.footer .for img{
+	float: right;
+	margin-top: -122px;
+}
+.footer .fob{
+	height: 63px;
+	width: 1140px;
+}
+.footer .fob p{
+	font-size: 12px;
+	color: white;
+	line-height: 63px;
+	border-bottom: 1px dashed orange;
+}
+.footer .fob p span{
+	margin-left: 48px;
+	margin-right: 300px;
+}
